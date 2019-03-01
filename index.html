@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog API Example</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dog API: A Simple Example</h1>
+
+        <form class = "dog-form">
+          <label for="number">
+            Enter the number of dog images:
+            <input name="number" type="number" class="js-num-dogs" placeholder="e.g. 3" required>
+          </label>
+          <label for="breed">
+              Enter the breed of dogs:
+              <input name="breed" type="text" class="js-dog-breed" id="breed" required>
+            </label>
+          <input type="submit" value="Get a dogs!" class="js-dog-submit">
+        </form>
+        <section class="dog-images">
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
